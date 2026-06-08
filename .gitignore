@@ -8,10 +8,13 @@ __pycache__/
 node_modules/
 frontend/dist/
 artifacts/dev/
+artifacts/phase-smoke/
 artifacts/full/
 data/
 .claude/
 checkpoints/
 *.pt
 *.pth
+logs/*.log
+!logs/phase_full_20260608_001753.log
 .env

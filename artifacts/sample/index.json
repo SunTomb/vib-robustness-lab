@@ -1,0 +1,12 @@
+{
+  "datasets": ["mnist"],
+  "experiments": [
+    {
+      "id": "mnist_vib_beta_0_001",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.001,
+      "path": "mnist_vib_beta_0_001"
+    }
+  ]
+}

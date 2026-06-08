@@ -1,0 +1,10 @@
+{
+  "datasets": {
+    "mnist": {
+      "best_clean_experiment": "mnist_vib_beta_0_001",
+      "best_clean_accuracy": 0.91,
+      "best_robust_by_corruption": {"gaussian": "mnist_vib_beta_0_001"},
+      "phase_label_counts": {"useful-compression": 1}
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"robustness_auc":{"gaussian":0.91},"normalized_robustness_auc":{"gaussian":1.0},"compression_benefit_index":{"gaussian":0.03},"kl_collapse_score":0.2,"phase_label":"useful-compression","over_compression_flag":false}

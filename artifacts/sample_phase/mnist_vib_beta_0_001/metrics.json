@@ -1,0 +1,1 @@
+{"dataset":"mnist","model":"vib","beta":0.001,"test_accuracy":0.91,"average_kl":2.0}
