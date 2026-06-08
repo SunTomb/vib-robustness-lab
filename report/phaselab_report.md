@@ -371,7 +371,21 @@ VIB_ARTIFACT_DIR=artifacts/full VIB_PHASE_ARTIFACT_DIR=artifacts/phase \
 
 本地浏览器验证中，前端成功读取真实 `artifacts/phase`，显示 CIFAR-10、Fashion-MNIST 和 MNIST 的 PhaseLab 结果，并能进入 Compression Lens 与 Diagnosis Lab。
 
-### 8.3 Artifact-driven 设计的优势
+### 8.3 Web 系统成果展示
+
+网页成果不是简单的静态结果列表，而是围绕 PhaseLab 的研究问题组织成一个可交互实验工作台。打开页面后，顶部首先展示项目主题和信息瓶颈关系；随后进入 PhaseLab 区域，按数据集汇总 clean 最优实验、phase label 分布和 β 相变地图。用户可以点击任意实验配置，立即查看该配置的压缩强度、鲁棒性曲线摘要和 latent 诊断指标。
+
+![PhaseLab 网页总览](figures/dashboard_phaselab_overview.png)
+
+图中可以看到，网页直接展示 CIFAR-10、Fashion-MNIST 和 MNIST 三个数据集的最佳 clean accuracy 与阶段计数。例如 CIFAR-10 的最佳 clean 实验为 `cifar10_vib_beta_0_003`，Fashion-MNIST 的最佳 clean 实验为 `fashion_mnist_vib_beta_0_03`，MNIST 的最佳 clean 实验为 `mnist_vib_beta_0_03`。这些内容均来自 `artifacts/phase/summary.json`，而不是前端硬编码。
+
+在诊断视图中，Compression Lens 以当前选中实验为中心显示 clean accuracy、KL proxy、KL collapse score 和四类 corruption 的 robustness AUC；Diagnosis Lab 则展示类内方差、类间距离、Fisher ratio、silhouette score 以及不同类别的 latent drift。这样，网页不仅能“看结果”，还可以支持对压缩状态的解释。
+
+![PhaseLab 压缩与表示诊断视图](figures/dashboard_phaselab_diagnosis.png)
+
+该 Web 系统体现了本项目的工程创新点：训练过程在 GPU/NAS 上离线完成，结果以 JSON artifacts 固化；FastAPI 只读服务提供统一数据接口；React/Vite 前端负责中文交互展示。因此，课程展示时无需重新训练模型，也无需 GPU，只需部署轻量后端和前端即可复现完整实验结论。
+
+### 8.4 Artifact-driven 设计的优势
 
 本项目没有把 Web Demo 做成在线训练平台，而是采用“离线训练—静态 artifacts—只读 API—前端展示”的设计。这种方式有三点优势：
 
