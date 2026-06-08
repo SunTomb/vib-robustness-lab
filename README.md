@@ -22,8 +22,9 @@
 - FastAPI 只读 artifact API：`backend/`
 - React + TypeScript + Vite 中文 dashboard：`frontend/`
 - 中文报告与汇总结果：
-  - `report/final_report.md`：原始 VIB 复现实验报告。
-  - `report/phaselab_report.md`：PhaseLab 相变与诊断报告。
+  - `report/phaselab_report.md`：最终 PhaseLab 课程报告 Markdown 版。
+  - `report/phaselab_report.tex`：最终 PhaseLab 课程报告 LaTeX 版。
+  - `report/phaselab_report.pdf`：已编译 PDF 版报告。
   - `report/results/`：原始实验汇总表。
   - `report/phase_results/`：PhaseLab metrics / robustness / phase labels / key findings。
 
@@ -55,8 +56,9 @@ scripts/
   generate_phaselab_report.py
 
 report/
-  final_report.md
   phaselab_report.md
+  phaselab_report.tex
+  phaselab_report.pdf
   phase_results/
 ```
 

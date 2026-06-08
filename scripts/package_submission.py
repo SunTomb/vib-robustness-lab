@@ -11,6 +11,7 @@ EXCLUDED_PARTS = {
     ".venv",
     "venv",
     "data",
+    "build",
 }
 
 

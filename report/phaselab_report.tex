@@ -1,9 +1,11 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[UTF8]{ctex}
 \usepackage{graphicx}
+\graphicspath{{report/figures/}{figures/}}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{adjustbox}
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{listings}
@@ -116,7 +118,7 @@ KL collapse score 使用同一数据集 VIB $\beta=0$ 的 KL 作为参考：
 \text{KL-collapse}=\frac{KL_\beta}{KL_{\beta=0}}.
 \end{equation}
 
-系统根据 clean accuracy drop、CBI 和 KL collapse score 给每个配置赋予 `under-regularized`、`useful-compression`、`robustness-specialized`、`over-compressed` 或 `unstable` 标签。该标签是实验诊断工具，不是理论定理。
+系统根据 clean accuracy drop、CBI 和 KL collapse score 给每个配置赋予诊断标签：压缩不足、有效压缩、鲁棒特化、过度压缩或不稳定。该标签是实验诊断工具，不是理论定理。
 
 \section{实验设置}
 
@@ -175,6 +177,7 @@ Latent dimension & 32 \\
 \begin{table}[H]
 \centering
 \caption{各数据集 clean accuracy 最佳配置}
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{llllrrr}
 \toprule
 数据集 & 最佳实验 & 模型 & $\beta$ & Clean Acc. & Avg. KL & KL collapse \\
@@ -184,9 +187,28 @@ Fashion-MNIST & fashion\_mnist\_vib\_beta\_0\_03 & VIB-CNN & 0.03 & 92.29\% & 7.
 CIFAR-10 & cifar10\_vib\_beta\_0\_003 & VIB-CNN & 0.003 & 70.41\% & 25.8218 & 0.1398 \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 三个数据集的最佳 clean accuracy 均由 VIB-CNN 取得，说明适当 $\beta$ 的信息瓶颈确实能发挥正则化作用。不过，最佳 clean 配置并不一定是所有 corruption 下最鲁棒的配置。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{phaselab_clean_accuracy.png}
+\caption{PhaseLab 中 CNN baseline 与不同 $\beta$ 的 VIB-CNN clean accuracy 对比}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{phaselab_phase_counts.png}
+\caption{三个数据集上的 phase label 分布}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{phaselab_robustness_auc.png}
+\caption{各数据集和 corruption 下的最佳 robustness AUC}
+\end{figure}
 
 \subsection{MNIST：有效压缩较稳定}
 
@@ -195,6 +217,7 @@ MNIST 的 phase label 分布为：useful-compression 7 个、under-regularized 1
 \begin{table}[H]
 \centering
 \caption{MNIST 各 corruption 最优 robustness AUC}
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{llllrr}
 \toprule
 Corruption & 最优实验 & $\beta$ & AUC & CBI & Clean Acc. \\
@@ -205,6 +228,7 @@ gaussian & mnist\_vib\_beta\_0 & 0 & 0.9394 & 0.0107 & 98.96\% \\
 salt-pepper & mnist\_vib\_beta\_0\_03 & 0.03 & 0.9474 & 0.0025 & 99.39\% \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 四类 corruption 的最优鲁棒性均由 VIB-CNN 获得，且 CBI 均为正。这说明在 MNIST 这类低复杂度任务中，VIB 压缩较容易去除冗余输入变化，同时保留类别结构。
@@ -216,6 +240,7 @@ Fashion-MNIST 的 phase label 分布为：useful-compression 3 个、under-regul
 \begin{table}[H]
 \centering
 \caption{Fashion-MNIST 各 corruption 最优 robustness AUC}
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{llllrr}
 \toprule
 Corruption & 最优实验 & $\beta$ & AUC & CBI & Clean Acc. \\
@@ -226,6 +251,7 @@ gaussian & fashion\_mnist\_cnn\_baseline & 0 & 0.6302 & 0.0000 & 90.50\% \\
 salt-pepper & fashion\_mnist\_cnn\_baseline & 0 & 0.6859 & 0.0000 & 90.50\% \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 VIB 在 blur 和 contrast 上取得最优，但 Gaussian 与 salt-and-pepper 的最优结果仍来自 CNN baseline。这说明 VIB 对不同扰动类型的影响并不一致。
@@ -237,6 +263,7 @@ CIFAR-10 的 phase label 分布为：useful-compression 7 个、under-regularize
 \begin{table}[H]
 \centering
 \caption{CIFAR-10 各 corruption 最优 robustness AUC}
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{llllrr}
 \toprule
 Corruption & 最优实验 & $\beta$ & AUC & CBI & Clean Acc. \\
@@ -247,13 +274,14 @@ gaussian & cifar10\_cnn\_baseline & 0 & 0.4116 & 0.0000 & 70.20\% \\
 salt-pepper & cifar10\_vib\_beta\_0\_01 & 0.01 & 0.4645 & 0.0031 & 70.04\% \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \end{table}
 
 CIFAR-10 上，VIB 在 blur 和 salt-and-pepper 上略有优势，但 contrast 和 Gaussian 最优仍是 CNN baseline。这说明在复杂自然图像上，表示压缩的效果受模型容量、数据分布和扰动类型共同制约。
 
 \section{交互式系统实现}
 
-后端位于 `backend/`，使用 FastAPI 只读 artifacts，不执行训练。主要接口包括 `/api/index`、`/api/experiments/{id}`、`/api/phase/index`、`/api/phase/summary` 和 `/api/phase/experiments/{id}`。前端位于 `frontend/`，使用 React、TypeScript、Vite 和 Recharts，包含 Phase overview、phase map、Compression Lens、Diagnosis Lab 和原始 VIB 实验台。
+后端位于 `backend/`，使用 FastAPI 只读 artifacts，不执行训练。它提供原始实验索引、单实验详情、PhaseLab 索引、summary 和单实验详情等接口。前端位于 `frontend/`，使用 React、TypeScript、Vite 和 Recharts，包含 Phase overview、phase map、Compression Lens、Diagnosis Lab 和原始 VIB 实验台。
 
 本项目采用 artifact-driven 设计：离线训练生成 JSON artifacts，后端只读服务提供数据，前端负责交互式展示，报告从同一批 artifacts 中归纳结论。这种结构保证了实验结果可复查，并使展示系统不依赖 GPU。
 

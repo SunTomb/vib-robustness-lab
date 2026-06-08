@@ -260,7 +260,23 @@ PhaseLab 全量实验覆盖 3 个数据集、39 个实验配置和 780 条 robus
 
 三个数据集的最佳 clean accuracy 均由 VIB-CNN 取得，说明适当 β 的信息瓶颈确实能发挥正则化作用。不过，最佳 clean 配置并不一定是所有 corruption 下最鲁棒的配置，尤其在 Fashion-MNIST 与 CIFAR-10 上表现明显。
 
-### 6.2 MNIST：有效压缩较稳定
+![PhaseLab clean accuracy across beta](figures/phaselab_clean_accuracy.png)
+
+图中横轴为 CNN baseline 与不同 β 的 VIB-CNN，纵轴为 clean accuracy。可以看到 MNIST 与 Fashion-MNIST 在中等 β 附近达到较高精度，而 CIFAR-10 的最优点出现在 β=0.003。
+
+### 6.2 Phase label 分布
+
+![Phase label distribution](figures/phaselab_phase_counts.png)
+
+Phase label 分布显示，MNIST 和 CIFAR-10 中 useful-compression 配置较多，而 Fashion-MNIST 中 unstable 配置更多。这说明 Fashion-MNIST 对压缩强度更敏感，不同 β 在 clean accuracy 与 corruption robustness 之间更容易出现不一致。
+
+### 6.3 各 corruption 最优鲁棒性
+
+![Best robustness AUC by dataset and corruption](figures/phaselab_robustness_auc.png)
+
+热力图汇总每个数据集、每类 corruption 上的最佳 robustness AUC。MNIST 的整体鲁棒性最高，Fashion-MNIST 在 blur 和 salt-and-pepper 上保持中等水平，CIFAR-10 在 Gaussian 和 blur 下明显更困难。
+
+### 6.4 MNIST：有效压缩较稳定
 
 MNIST 的 phase label 分布为：`useful-compression` 7 个、`under-regularized` 1 个、`unstable` 4 个、`over-compressed` 1 个。说明在简单手写数字任务中，较宽范围的 β 都能落入有效压缩区间，只有极大 β 会导致过压缩。
 
@@ -275,7 +291,7 @@ MNIST 各 corruption 的 robustness AUC 最优配置如下：
 
 可以看到，MNIST 上四类 corruption 的最优鲁棒性均由 VIB-CNN 获得，且 CBI 均为正。这说明在 MNIST 这类低复杂度任务中，VIB 压缩较容易去除冗余输入变化，同时保留类别结构。
 
-### 6.3 Fashion-MNIST：压缩收益更依赖扰动类型
+### 6.5 Fashion-MNIST：压缩收益更依赖扰动类型
 
 Fashion-MNIST 的 phase label 分布为：`useful-compression` 3 个、`under-regularized` 2 个、`unstable` 7 个、`over-compressed` 1 个。与 MNIST 相比，Fashion-MNIST 的不稳定配置更多，说明服饰图像的类别边界更依赖细粒度纹理和形状，压缩强度稍有不当就可能损害某些 corruption 下的表现。
 
@@ -290,7 +306,7 @@ Fashion-MNIST 各 corruption 的 robustness AUC 最优配置如下：
 
 VIB 在 blur 和 contrast 上取得最优，但 Gaussian 与 salt-and-pepper 的最优结果仍来自 CNN baseline。这说明 VIB 对不同扰动类型的影响并不一致：它可能改善对平滑和对比度变化的适应性，但未必能抵抗像素级噪声破坏。
 
-### 6.4 CIFAR-10：复杂任务上的混合结论
+### 6.6 CIFAR-10：复杂任务上的混合结论
 
 CIFAR-10 的 phase label 分布为：`useful-compression` 7 个、`under-regularized` 4 个、`unstable` 1 个、`over-compressed` 1 个。CIFAR-10 图像复杂度更高，小型 CNN/VIB-CNN 的绝对 accuracy 不高，但仍能观察到 β 对压缩和鲁棒性结构的影响。
 

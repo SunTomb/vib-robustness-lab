@@ -20,8 +20,9 @@ Final local artifacts and reports are already present:
 
 - `artifacts/full/` — original MNIST/Fashion-MNIST VIB reproduction artifacts.
 - `artifacts/phase/` — final PhaseLab artifacts: 3 datasets, 39 experiment configs, 780 robustness rows.
-- `report/final_report.md` — original reproduction report.
 - `report/phaselab_report.md` — final PhaseLab report generated from real artifacts.
+- `report/phaselab_report.tex` — LaTeX version of the final individual course report.
+- `report/phaselab_report.pdf` — compiled PDF version of the final report.
 - `report/results/` and `report/phase_results/` — CSV/JSON summaries and key findings.
 - `logs/phase_full_20260608_001753.log` — lab GPU full PhaseLab run log.
 
