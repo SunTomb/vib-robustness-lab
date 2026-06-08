@@ -1,0 +1,9 @@
+{
+  "dataset": "cifar10",
+  "model": "cnn",
+  "beta": 0.0,
+  "train_accuracy": 0.78716,
+  "test_accuracy": 0.702,
+  "train_test_gap": 0.08516000000000001,
+  "average_kl": 0.0
+}

@@ -1,0 +1,146 @@
+{
+  "dataset": "fashion_mnist",
+  "experiment_id": "fashion_mnist_vib_beta_0_0003",
+  "rows": [
+    {
+      "corruption": "gaussian",
+      "severity": 0.0,
+      "accuracy": 0.9194,
+      "mean_confidence": 0.9381595975875855,
+      "mean_entropy": 0.17169581553936006
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "accuracy": 0.8647,
+      "mean_confidence": 0.8678502380371094,
+      "mean_entropy": 0.40495435481071473
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "accuracy": 0.5606,
+      "mean_confidence": 0.7320871887207031,
+      "mean_entropy": 0.801394400882721
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "accuracy": 0.3185,
+      "mean_confidence": 0.7227903884887695,
+      "mean_entropy": 0.8073460331916809
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "accuracy": 0.2102,
+      "mean_confidence": 0.7573900085449219,
+      "mean_entropy": 0.6988708749771119
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.0,
+      "accuracy": 0.9194,
+      "mean_confidence": 0.9381595975875855,
+      "mean_entropy": 0.17169581553936006
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "accuracy": 0.7421,
+      "mean_confidence": 0.8546164457321167,
+      "mean_entropy": 0.41226228532791137
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "accuracy": 0.5429,
+      "mean_confidence": 0.8115079235076904,
+      "mean_entropy": 0.5313548167228699
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "accuracy": 0.4043,
+      "mean_confidence": 0.8081692448616028,
+      "mean_entropy": 0.5422017202377319
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "accuracy": 0.3189,
+      "mean_confidence": 0.812544006061554,
+      "mean_entropy": 0.5281744713783264
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.0,
+      "accuracy": 0.9194,
+      "mean_confidence": 0.9381595975875855,
+      "mean_entropy": 0.17169581553936006
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "accuracy": 0.8599,
+      "mean_confidence": 0.8449089008331299,
+      "mean_entropy": 0.47168092861175537
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "accuracy": 0.8599,
+      "mean_confidence": 0.8449089008331299,
+      "mean_entropy": 0.47168092861175537
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "accuracy": 0.6552,
+      "mean_confidence": 0.6727473237991333,
+      "mean_entropy": 0.958451191329956
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "accuracy": 0.6552,
+      "mean_confidence": 0.6727473237991333,
+      "mean_entropy": 0.958451191329956
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.0,
+      "accuracy": 0.9194,
+      "mean_confidence": 0.9381595975875855,
+      "mean_entropy": 0.17169581553936006
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "accuracy": 0.8182,
+      "mean_confidence": 0.8081000448226928,
+      "mean_entropy": 0.5716207683563233
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "accuracy": 0.6204,
+      "mean_confidence": 0.7137446088790893,
+      "mean_entropy": 0.8244519856452942
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "accuracy": 0.5339,
+      "mean_confidence": 0.6790441089630127,
+      "mean_entropy": 0.9293213781356812
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "accuracy": 0.4594,
+      "mean_confidence": 0.6503144226074219,
+      "mean_entropy": 1.0148585193634032
+    }
+  ]
+}

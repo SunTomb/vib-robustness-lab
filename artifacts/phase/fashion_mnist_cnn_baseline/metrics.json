@@ -1,0 +1,9 @@
+{
+  "dataset": "fashion_mnist",
+  "model": "cnn",
+  "beta": 0.0,
+  "train_accuracy": 0.9331833333333334,
+  "test_accuracy": 0.905,
+  "train_test_gap": 0.028183333333333338,
+  "average_kl": 0.0
+}

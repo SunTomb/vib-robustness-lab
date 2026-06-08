@@ -1,0 +1,9 @@
+{
+  "dataset": "mnist",
+  "model": "vib",
+  "beta": 1.0,
+  "train_accuracy": 0.64365,
+  "test_accuracy": 0.641,
+  "train_test_gap": 0.002650000000000041,
+  "average_kl": 0.04327960420824305
+}

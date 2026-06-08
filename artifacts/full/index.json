@@ -1,0 +1,106 @@
+{
+  "datasets": [
+    "mnist",
+    "fashion_mnist"
+  ],
+  "experiments": [
+    {
+      "id": "fashion_mnist_cnn_baseline",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "beta": 0.0,
+      "path": "fashion_mnist_cnn_baseline"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.0,
+      "path": "fashion_mnist_vib_beta_0"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_0001",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.0001,
+      "path": "fashion_mnist_vib_beta_0_0001"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_001",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.001,
+      "path": "fashion_mnist_vib_beta_0_001"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_01",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.01,
+      "path": "fashion_mnist_vib_beta_0_01"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_1",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.1,
+      "path": "fashion_mnist_vib_beta_0_1"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_1",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 1.0,
+      "path": "fashion_mnist_vib_beta_1"
+    },
+    {
+      "id": "mnist_cnn_baseline",
+      "dataset": "mnist",
+      "model": "cnn",
+      "beta": 0.0,
+      "path": "mnist_cnn_baseline"
+    },
+    {
+      "id": "mnist_vib_beta_0",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.0,
+      "path": "mnist_vib_beta_0"
+    },
+    {
+      "id": "mnist_vib_beta_0_0001",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.0001,
+      "path": "mnist_vib_beta_0_0001"
+    },
+    {
+      "id": "mnist_vib_beta_0_001",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.001,
+      "path": "mnist_vib_beta_0_001"
+    },
+    {
+      "id": "mnist_vib_beta_0_01",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.01,
+      "path": "mnist_vib_beta_0_01"
+    },
+    {
+      "id": "mnist_vib_beta_0_1",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.1,
+      "path": "mnist_vib_beta_0_1"
+    },
+    {
+      "id": "mnist_vib_beta_1",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 1.0,
+      "path": "mnist_vib_beta_1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "noise": [
+    {
+      "sigma": 0.0,
+      "accuracy": 0.9149
+    },
+    {
+      "sigma": 0.1,
+      "accuracy": 0.8631
+    },
+    {
+      "sigma": 0.2,
+      "accuracy": 0.5797
+    },
+    {
+      "sigma": 0.3,
+      "accuracy": 0.3348
+    },
+    {
+      "sigma": 0.4,
+      "accuracy": 0.2082
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: vib-robust-generalization
+Version: 0.1.0
+Summary: Variational Information Bottleneck experiments for robust image classification.
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.2
+Requires-Dist: torchvision>=0.17
+Requires-Dist: numpy>=1.26
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: fastapi>=0.111
+Requires-Dist: uvicorn>=0.29
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pytest>=8.2

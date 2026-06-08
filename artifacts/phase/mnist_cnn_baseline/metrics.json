@@ -1,0 +1,9 @@
+{
+  "dataset": "mnist",
+  "model": "cnn",
+  "beta": 0.0,
+  "train_accuracy": 0.9957,
+  "test_accuracy": 0.9881,
+  "train_test_gap": 0.007600000000000051,
+  "average_kl": 0.0
+}

@@ -1,0 +1,23 @@
+{
+  "robustness_auc": {
+    "gaussian": 0.37144,
+    "salt_pepper": 0.42412,
+    "blur": 0.47106,
+    "contrast": 0.6379
+  },
+  "normalized_robustness_auc": {
+    "gaussian": 0.535911123936,
+    "salt_pepper": 0.611917472226,
+    "blur": 0.679642187275,
+    "contrast": 0.920357812725
+  },
+  "compression_benefit_index": {
+    "gaussian": -0.050356682332,
+    "salt_pepper": -0.048224977916,
+    "blur": 0.015482643115,
+    "contrast": -0.023431361064
+  },
+  "kl_collapse_score": 0.041673427477,
+  "phase_label": "useful-compression",
+  "over_compression_flag": false
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+.DS_Store
+node_modules/
+frontend/dist/
+artifacts/dev/
+artifacts/full/
+data/
+.claude/
+checkpoints/
+*.pt
+*.pth
+.env

@@ -1,0 +1,58 @@
+{
+  "intra_class_variance": 1.2614633798599244,
+  "inter_class_distance": 2.8237429605589974,
+  "fisher_ratio": 2.238466059056389,
+  "silhouette_score": 0.186738520860672,
+  "per_class": [
+    {
+      "label": 0,
+      "intra_variance": 1.3365354537963867,
+      "center_norm": 1.7401028871536255
+    },
+    {
+      "label": 1,
+      "intra_variance": 1.0527026653289795,
+      "center_norm": 2.09096360206604
+    },
+    {
+      "label": 2,
+      "intra_variance": 1.449470043182373,
+      "center_norm": 1.590693473815918
+    },
+    {
+      "label": 3,
+      "intra_variance": 1.257524847984314,
+      "center_norm": 1.3347026109695435
+    },
+    {
+      "label": 4,
+      "intra_variance": 1.4215202331542969,
+      "center_norm": 1.8016397953033447
+    },
+    {
+      "label": 5,
+      "intra_variance": 1.241030216217041,
+      "center_norm": 1.5646620988845825
+    },
+    {
+      "label": 6,
+      "intra_variance": 1.2579143047332764,
+      "center_norm": 2.3693652153015137
+    },
+    {
+      "label": 7,
+      "intra_variance": 1.281957983970642,
+      "center_norm": 2.415151596069336
+    },
+    {
+      "label": 8,
+      "intra_variance": 1.110120177268982,
+      "center_norm": 2.361654281616211
+    },
+    {
+      "label": 9,
+      "intra_variance": 1.2058578729629517,
+      "center_norm": 1.977645993232727
+    }
+  ]
+}

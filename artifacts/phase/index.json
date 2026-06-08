@@ -1,0 +1,282 @@
+{
+  "datasets": [
+    "mnist",
+    "fashion_mnist",
+    "cifar10"
+  ],
+  "experiments": [
+    {
+      "id": "cifar10_cnn_baseline",
+      "dataset": "cifar10",
+      "model": "cnn",
+      "beta": 0.0,
+      "path": "cifar10_cnn_baseline"
+    },
+    {
+      "id": "cifar10_vib_beta_0",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.0,
+      "path": "cifar10_vib_beta_0"
+    },
+    {
+      "id": "cifar10_vib_beta_1em05",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 1e-05,
+      "path": "cifar10_vib_beta_1em05"
+    },
+    {
+      "id": "cifar10_vib_beta_3em05",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 3e-05,
+      "path": "cifar10_vib_beta_3em05"
+    },
+    {
+      "id": "cifar10_vib_beta_0_0001",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.0001,
+      "path": "cifar10_vib_beta_0_0001"
+    },
+    {
+      "id": "cifar10_vib_beta_0_0003",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.0003,
+      "path": "cifar10_vib_beta_0_0003"
+    },
+    {
+      "id": "cifar10_vib_beta_0_001",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.001,
+      "path": "cifar10_vib_beta_0_001"
+    },
+    {
+      "id": "cifar10_vib_beta_0_003",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.003,
+      "path": "cifar10_vib_beta_0_003"
+    },
+    {
+      "id": "cifar10_vib_beta_0_01",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.01,
+      "path": "cifar10_vib_beta_0_01"
+    },
+    {
+      "id": "cifar10_vib_beta_0_03",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.03,
+      "path": "cifar10_vib_beta_0_03"
+    },
+    {
+      "id": "cifar10_vib_beta_0_1",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.1,
+      "path": "cifar10_vib_beta_0_1"
+    },
+    {
+      "id": "cifar10_vib_beta_0_3",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 0.3,
+      "path": "cifar10_vib_beta_0_3"
+    },
+    {
+      "id": "cifar10_vib_beta_1",
+      "dataset": "cifar10",
+      "model": "vib",
+      "beta": 1.0,
+      "path": "cifar10_vib_beta_1"
+    },
+    {
+      "id": "fashion_mnist_cnn_baseline",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "beta": 0.0,
+      "path": "fashion_mnist_cnn_baseline"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.0,
+      "path": "fashion_mnist_vib_beta_0"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_1em05",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 1e-05,
+      "path": "fashion_mnist_vib_beta_1em05"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_3em05",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 3e-05,
+      "path": "fashion_mnist_vib_beta_3em05"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_0001",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.0001,
+      "path": "fashion_mnist_vib_beta_0_0001"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_0003",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.0003,
+      "path": "fashion_mnist_vib_beta_0_0003"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_001",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.001,
+      "path": "fashion_mnist_vib_beta_0_001"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_003",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.003,
+      "path": "fashion_mnist_vib_beta_0_003"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_01",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.01,
+      "path": "fashion_mnist_vib_beta_0_01"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_03",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.03,
+      "path": "fashion_mnist_vib_beta_0_03"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_1",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.1,
+      "path": "fashion_mnist_vib_beta_0_1"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_0_3",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 0.3,
+      "path": "fashion_mnist_vib_beta_0_3"
+    },
+    {
+      "id": "fashion_mnist_vib_beta_1",
+      "dataset": "fashion_mnist",
+      "model": "vib",
+      "beta": 1.0,
+      "path": "fashion_mnist_vib_beta_1"
+    },
+    {
+      "id": "mnist_cnn_baseline",
+      "dataset": "mnist",
+      "model": "cnn",
+      "beta": 0.0,
+      "path": "mnist_cnn_baseline"
+    },
+    {
+      "id": "mnist_vib_beta_0",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.0,
+      "path": "mnist_vib_beta_0"
+    },
+    {
+      "id": "mnist_vib_beta_1em05",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 1e-05,
+      "path": "mnist_vib_beta_1em05"
+    },
+    {
+      "id": "mnist_vib_beta_3em05",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 3e-05,
+      "path": "mnist_vib_beta_3em05"
+    },
+    {
+      "id": "mnist_vib_beta_0_0001",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.0001,
+      "path": "mnist_vib_beta_0_0001"
+    },
+    {
+      "id": "mnist_vib_beta_0_0003",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.0003,
+      "path": "mnist_vib_beta_0_0003"
+    },
+    {
+      "id": "mnist_vib_beta_0_001",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.001,
+      "path": "mnist_vib_beta_0_001"
+    },
+    {
+      "id": "mnist_vib_beta_0_003",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.003,
+      "path": "mnist_vib_beta_0_003"
+    },
+    {
+      "id": "mnist_vib_beta_0_01",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.01,
+      "path": "mnist_vib_beta_0_01"
+    },
+    {
+      "id": "mnist_vib_beta_0_03",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.03,
+      "path": "mnist_vib_beta_0_03"
+    },
+    {
+      "id": "mnist_vib_beta_0_1",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.1,
+      "path": "mnist_vib_beta_0_1"
+    },
+    {
+      "id": "mnist_vib_beta_0_3",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 0.3,
+      "path": "mnist_vib_beta_0_3"
+    },
+    {
+      "id": "mnist_vib_beta_1",
+      "dataset": "mnist",
+      "model": "vib",
+      "beta": 1.0,
+      "path": "mnist_vib_beta_1"
+    }
+  ]
+}

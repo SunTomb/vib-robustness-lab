@@ -1,0 +1,9 @@
+{
+  "dataset": "cifar10",
+  "model": "vib",
+  "beta": 0.003,
+  "train_accuracy": 0.79946,
+  "test_accuracy": 0.7041,
+  "train_test_gap": 0.09536,
+  "average_kl": 25.821760032750383
+}

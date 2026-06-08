@@ -1,0 +1,9 @@
+{
+  "dataset": "fashion_mnist",
+  "model": "vib",
+  "beta": 0.1,
+  "train_accuracy": 0.9554166666666667,
+  "test_accuracy": 0.9186,
+  "train_test_gap": 0.03681666666666672,
+  "average_kl": 4.56921578660796
+}

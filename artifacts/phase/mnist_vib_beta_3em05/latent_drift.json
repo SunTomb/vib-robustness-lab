@@ -1,0 +1,1124 @@
+{
+  "rows": [
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 0,
+      "mean_drift": 1.4424315690994263,
+      "median_drift": 1.383948564529419
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 1,
+      "mean_drift": 1.9392626285552979,
+      "median_drift": 1.915264368057251
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 2,
+      "mean_drift": 1.9039664268493652,
+      "median_drift": 1.8304171562194824
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 3,
+      "mean_drift": 1.297814965248108,
+      "median_drift": 1.2937374114990234
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 4,
+      "mean_drift": 1.9938830137252808,
+      "median_drift": 1.9254581928253174
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 5,
+      "mean_drift": 1.5688905715942383,
+      "median_drift": 1.5614969730377197
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 6,
+      "mean_drift": 1.7864965200424194,
+      "median_drift": 1.7827781438827515
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 7,
+      "mean_drift": 1.6464202404022217,
+      "median_drift": 1.5912867784500122
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 8,
+      "mean_drift": 1.8980098962783813,
+      "median_drift": 1.8370236158370972
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.1,
+      "label": 9,
+      "mean_drift": 1.8596258163452148,
+      "median_drift": 1.7536768913269043
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 0,
+      "mean_drift": 3.624492645263672,
+      "median_drift": 3.520193338394165
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 1,
+      "mean_drift": 4.907678604125977,
+      "median_drift": 4.861146450042725
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 2,
+      "mean_drift": 4.755711555480957,
+      "median_drift": 4.628761291503906
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 3,
+      "mean_drift": 2.9896013736724854,
+      "median_drift": 3.0230202674865723
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 4,
+      "mean_drift": 4.579446315765381,
+      "median_drift": 4.416215896606445
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 5,
+      "mean_drift": 3.7446789741516113,
+      "median_drift": 3.6164727210998535
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 6,
+      "mean_drift": 4.551328182220459,
+      "median_drift": 4.429892063140869
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 7,
+      "mean_drift": 4.164551258087158,
+      "median_drift": 4.08727502822876
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 8,
+      "mean_drift": 4.612024784088135,
+      "median_drift": 4.588158130645752
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.2,
+      "label": 9,
+      "mean_drift": 4.494956970214844,
+      "median_drift": 4.3599348068237305
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 0,
+      "mean_drift": 6.396422386169434,
+      "median_drift": 6.0415472984313965
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 1,
+      "mean_drift": 8.491735458374023,
+      "median_drift": 8.545371055603027
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 2,
+      "mean_drift": 8.04370403289795,
+      "median_drift": 7.802464485168457
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 3,
+      "mean_drift": 4.758757591247559,
+      "median_drift": 4.819657325744629
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 4,
+      "mean_drift": 7.563948154449463,
+      "median_drift": 7.28680419921875
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 5,
+      "mean_drift": 6.091242790222168,
+      "median_drift": 6.020743370056152
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 6,
+      "mean_drift": 7.982070446014404,
+      "median_drift": 7.688337326049805
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 7,
+      "mean_drift": 7.411140441894531,
+      "median_drift": 7.277738094329834
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 8,
+      "mean_drift": 7.8031721115112305,
+      "median_drift": 7.702437877655029
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.3,
+      "label": 9,
+      "mean_drift": 7.753294467926025,
+      "median_drift": 7.643196105957031
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 0,
+      "mean_drift": 9.273210525512695,
+      "median_drift": 9.021883010864258
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 1,
+      "mean_drift": 10.961987495422363,
+      "median_drift": 10.836395263671875
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 2,
+      "mean_drift": 11.187943458557129,
+      "median_drift": 10.938183784484863
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 3,
+      "mean_drift": 6.3253936767578125,
+      "median_drift": 6.330253601074219
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 4,
+      "mean_drift": 10.574914932250977,
+      "median_drift": 10.278481483459473
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 5,
+      "mean_drift": 8.182254791259766,
+      "median_drift": 7.949841022491455
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 6,
+      "mean_drift": 11.11404037475586,
+      "median_drift": 10.759647369384766
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 7,
+      "mean_drift": 10.726603507995605,
+      "median_drift": 10.309746742248535
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 8,
+      "mean_drift": 10.726424217224121,
+      "median_drift": 10.58271598815918
+    },
+    {
+      "corruption": "gaussian",
+      "severity": 0.4,
+      "label": 9,
+      "mean_drift": 11.176081657409668,
+      "median_drift": 11.194669723510742
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 0,
+      "mean_drift": 3.280628204345703,
+      "median_drift": 3.0743348598480225
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 1,
+      "mean_drift": 4.104698181152344,
+      "median_drift": 3.709247589111328
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 2,
+      "mean_drift": 3.30692720413208,
+      "median_drift": 2.984372615814209
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 3,
+      "mean_drift": 2.726250410079956,
+      "median_drift": 2.736698865890503
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 4,
+      "mean_drift": 3.397711753845215,
+      "median_drift": 3.222320079803467
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 5,
+      "mean_drift": 3.177668333053589,
+      "median_drift": 2.814380168914795
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 6,
+      "mean_drift": 3.9709839820861816,
+      "median_drift": 3.7307941913604736
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 7,
+      "mean_drift": 3.4856410026550293,
+      "median_drift": 3.3030614852905273
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 8,
+      "mean_drift": 3.8179354667663574,
+      "median_drift": 3.7764785289764404
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.1,
+      "label": 9,
+      "mean_drift": 3.7872564792633057,
+      "median_drift": 3.4617772102355957
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 0,
+      "mean_drift": 5.144038200378418,
+      "median_drift": 4.9950995445251465
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 1,
+      "mean_drift": 6.199465751647949,
+      "median_drift": 6.190507888793945
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 2,
+      "mean_drift": 5.170312881469727,
+      "median_drift": 4.840666770935059
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 3,
+      "mean_drift": 3.9540133476257324,
+      "median_drift": 4.0185675621032715
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 4,
+      "mean_drift": 5.199831962585449,
+      "median_drift": 4.792786598205566
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 5,
+      "mean_drift": 4.443030834197998,
+      "median_drift": 4.125049114227295
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 6,
+      "mean_drift": 6.333761215209961,
+      "median_drift": 6.086540222167969
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 7,
+      "mean_drift": 5.293242931365967,
+      "median_drift": 4.873403072357178
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 8,
+      "mean_drift": 5.9888691902160645,
+      "median_drift": 5.883763790130615
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.2,
+      "label": 9,
+      "mean_drift": 5.748526096343994,
+      "median_drift": 5.652088165283203
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 0,
+      "mean_drift": 6.623178958892822,
+      "median_drift": 6.608933925628662
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 1,
+      "mean_drift": 7.709364414215088,
+      "median_drift": 7.8747053146362305
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 2,
+      "mean_drift": 6.728061676025391,
+      "median_drift": 6.541534423828125
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 3,
+      "mean_drift": 4.988945960998535,
+      "median_drift": 4.701467514038086
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 4,
+      "mean_drift": 6.756693363189697,
+      "median_drift": 6.420996189117432
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 5,
+      "mean_drift": 5.418002605438232,
+      "median_drift": 5.206881523132324
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 6,
+      "mean_drift": 7.941145896911621,
+      "median_drift": 7.870798587799072
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 7,
+      "mean_drift": 6.940739154815674,
+      "median_drift": 6.515576362609863
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 8,
+      "mean_drift": 7.868256568908691,
+      "median_drift": 7.471541881561279
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.3,
+      "label": 9,
+      "mean_drift": 7.824328899383545,
+      "median_drift": 7.374131202697754
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 0,
+      "mean_drift": 7.875660419464111,
+      "median_drift": 7.243103981018066
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 1,
+      "mean_drift": 8.953840255737305,
+      "median_drift": 9.015974998474121
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 2,
+      "mean_drift": 8.643868446350098,
+      "median_drift": 8.406248092651367
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 3,
+      "mean_drift": 5.858145236968994,
+      "median_drift": 5.651035785675049
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 4,
+      "mean_drift": 8.324390411376953,
+      "median_drift": 8.011517524719238
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 5,
+      "mean_drift": 6.604105472564697,
+      "median_drift": 6.343433856964111
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 6,
+      "mean_drift": 9.548079490661621,
+      "median_drift": 9.354259490966797
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 7,
+      "mean_drift": 8.357976913452148,
+      "median_drift": 7.728525638580322
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 8,
+      "mean_drift": 9.172975540161133,
+      "median_drift": 8.679443359375
+    },
+    {
+      "corruption": "salt_pepper",
+      "severity": 0.4,
+      "label": 9,
+      "mean_drift": 9.513361930847168,
+      "median_drift": 9.405410766601562
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 0,
+      "mean_drift": 4.994029998779297,
+      "median_drift": 4.987312316894531
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 1,
+      "mean_drift": 4.120117664337158,
+      "median_drift": 4.1676154136657715
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 2,
+      "mean_drift": 6.6114501953125,
+      "median_drift": 6.6660308837890625
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 3,
+      "mean_drift": 6.065642833709717,
+      "median_drift": 6.051597595214844
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 4,
+      "mean_drift": 6.4597296714782715,
+      "median_drift": 6.443850517272949
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 5,
+      "mean_drift": 6.217254161834717,
+      "median_drift": 5.963789939880371
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 6,
+      "mean_drift": 5.496776103973389,
+      "median_drift": 5.388071060180664
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 7,
+      "mean_drift": 5.124824523925781,
+      "median_drift": 5.015610218048096
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 8,
+      "mean_drift": 7.175756454467773,
+      "median_drift": 7.031096458435059
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.1,
+      "label": 9,
+      "mean_drift": 7.213202953338623,
+      "median_drift": 7.297374725341797
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 0,
+      "mean_drift": 4.994029998779297,
+      "median_drift": 4.987312316894531
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 1,
+      "mean_drift": 4.120117664337158,
+      "median_drift": 4.1676154136657715
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 2,
+      "mean_drift": 6.6114501953125,
+      "median_drift": 6.6660308837890625
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 3,
+      "mean_drift": 6.065642833709717,
+      "median_drift": 6.051597595214844
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 4,
+      "mean_drift": 6.4597296714782715,
+      "median_drift": 6.443850517272949
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 5,
+      "mean_drift": 6.217254161834717,
+      "median_drift": 5.963789939880371
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 6,
+      "mean_drift": 5.496776103973389,
+      "median_drift": 5.388071060180664
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 7,
+      "mean_drift": 5.124824523925781,
+      "median_drift": 5.015610218048096
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 8,
+      "mean_drift": 7.175756454467773,
+      "median_drift": 7.031096458435059
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.2,
+      "label": 9,
+      "mean_drift": 7.213202953338623,
+      "median_drift": 7.297374725341797
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 0,
+      "mean_drift": 9.334478378295898,
+      "median_drift": 9.300311088562012
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 1,
+      "mean_drift": 7.786356449127197,
+      "median_drift": 7.941815376281738
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 2,
+      "mean_drift": 11.608146667480469,
+      "median_drift": 11.64876937866211
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 3,
+      "mean_drift": 10.694296836853027,
+      "median_drift": 10.769673347473145
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 4,
+      "mean_drift": 11.710721969604492,
+      "median_drift": 11.539993286132812
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 5,
+      "mean_drift": 11.100996017456055,
+      "median_drift": 10.915226936340332
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 6,
+      "mean_drift": 10.20919418334961,
+      "median_drift": 10.240823745727539
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 7,
+      "mean_drift": 9.333552360534668,
+      "median_drift": 9.038147926330566
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 8,
+      "mean_drift": 12.70124340057373,
+      "median_drift": 12.730888366699219
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.3,
+      "label": 9,
+      "mean_drift": 12.557677268981934,
+      "median_drift": 12.875383377075195
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 0,
+      "mean_drift": 9.334478378295898,
+      "median_drift": 9.300311088562012
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 1,
+      "mean_drift": 7.786356449127197,
+      "median_drift": 7.941815376281738
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 2,
+      "mean_drift": 11.608146667480469,
+      "median_drift": 11.64876937866211
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 3,
+      "mean_drift": 10.694296836853027,
+      "median_drift": 10.769673347473145
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 4,
+      "mean_drift": 11.710721969604492,
+      "median_drift": 11.539993286132812
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 5,
+      "mean_drift": 11.100996017456055,
+      "median_drift": 10.915226936340332
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 6,
+      "mean_drift": 10.20919418334961,
+      "median_drift": 10.240823745727539
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 7,
+      "mean_drift": 9.333552360534668,
+      "median_drift": 9.038147926330566
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 8,
+      "mean_drift": 12.70124340057373,
+      "median_drift": 12.730888366699219
+    },
+    {
+      "corruption": "blur",
+      "severity": 0.4,
+      "label": 9,
+      "mean_drift": 12.557677268981934,
+      "median_drift": 12.875383377075195
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 0,
+      "mean_drift": 1.285591959953308,
+      "median_drift": 1.3036706447601318
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 1,
+      "mean_drift": 1.114681601524353,
+      "median_drift": 1.1093004941940308
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 2,
+      "mean_drift": 1.5915693044662476,
+      "median_drift": 1.6096687316894531
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 3,
+      "mean_drift": 1.2479755878448486,
+      "median_drift": 1.2438721656799316
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 4,
+      "mean_drift": 1.3457386493682861,
+      "median_drift": 1.3759195804595947
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 5,
+      "mean_drift": 1.2308900356292725,
+      "median_drift": 1.2428505420684814
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 6,
+      "mean_drift": 1.3511145114898682,
+      "median_drift": 1.3316441774368286
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 7,
+      "mean_drift": 1.1461279392242432,
+      "median_drift": 1.1181613206863403
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 8,
+      "mean_drift": 1.5549683570861816,
+      "median_drift": 1.5683859586715698
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.1,
+      "label": 9,
+      "mean_drift": 1.3220223188400269,
+      "median_drift": 1.2957468032836914
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 0,
+      "mean_drift": 2.630218505859375,
+      "median_drift": 2.6466448307037354
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 1,
+      "mean_drift": 2.2803444862365723,
+      "median_drift": 2.2724623680114746
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 2,
+      "mean_drift": 3.377854347229004,
+      "median_drift": 3.4252421855926514
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 3,
+      "mean_drift": 2.543182849884033,
+      "median_drift": 2.5060834884643555
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 4,
+      "mean_drift": 2.7357330322265625,
+      "median_drift": 2.8068084716796875
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 5,
+      "mean_drift": 2.488091230392456,
+      "median_drift": 2.5160017013549805
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 6,
+      "mean_drift": 2.8391757011413574,
+      "median_drift": 2.7984890937805176
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 7,
+      "mean_drift": 2.377088785171509,
+      "median_drift": 2.287203788757324
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 8,
+      "mean_drift": 3.292022943496704,
+      "median_drift": 3.3189432621002197
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.2,
+      "label": 9,
+      "mean_drift": 2.715564250946045,
+      "median_drift": 2.7082464694976807
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 0,
+      "mean_drift": 4.0654215812683105,
+      "median_drift": 4.102486610412598
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 1,
+      "mean_drift": 3.6964786052703857,
+      "median_drift": 3.6567165851593018
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 2,
+      "mean_drift": 5.511590003967285,
+      "median_drift": 5.573317527770996
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 3,
+      "mean_drift": 3.934417963027954,
+      "median_drift": 3.8687872886657715
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 4,
+      "mean_drift": 4.391180515289307,
+      "median_drift": 4.431888580322266
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 5,
+      "mean_drift": 3.7595274448394775,
+      "median_drift": 3.7450857162475586
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 6,
+      "mean_drift": 4.600098133087158,
+      "median_drift": 4.630422115325928
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 7,
+      "mean_drift": 4.001888275146484,
+      "median_drift": 3.8627476692199707
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 8,
+      "mean_drift": 5.334741592407227,
+      "median_drift": 5.359312534332275
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.3,
+      "label": 9,
+      "mean_drift": 4.2039899826049805,
+      "median_drift": 4.1511640548706055
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 0,
+      "mean_drift": 5.451813220977783,
+      "median_drift": 5.470243453979492
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 1,
+      "mean_drift": 5.4203925132751465,
+      "median_drift": 5.352988243103027
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 2,
+      "mean_drift": 7.910629749298096,
+      "median_drift": 7.991954803466797
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 3,
+      "mean_drift": 5.407121181488037,
+      "median_drift": 5.3744797706604
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 4,
+      "mean_drift": 6.445733070373535,
+      "median_drift": 6.468570709228516
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 5,
+      "mean_drift": 5.077188968658447,
+      "median_drift": 5.068312168121338
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 6,
+      "mean_drift": 6.502518653869629,
+      "median_drift": 6.526335716247559
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 7,
+      "mean_drift": 6.374231338500977,
+      "median_drift": 6.085766792297363
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 8,
+      "mean_drift": 7.5394721031188965,
+      "median_drift": 7.4689531326293945
+    },
+    {
+      "corruption": "contrast",
+      "severity": 0.4,
+      "label": 9,
+      "mean_drift": 5.898841857910156,
+      "median_drift": 5.885300636291504
+    }
+  ]
+}
