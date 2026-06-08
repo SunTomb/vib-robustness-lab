@@ -22,9 +22,14 @@ Final local artifacts and reports are already present:
 - `artifacts/phase/` — final PhaseLab artifacts: 3 datasets, 39 experiment configs, 780 robustness rows.
 - `report/phaselab_report.md` — final PhaseLab report generated from real artifacts.
 - `report/phaselab_report.tex` — LaTeX version of the final individual course report.
-- `report/phaselab_report.pdf` — compiled PDF version of the final report.
+- `report/phaselab_report.pdf` — compiled PDF version of the final report, currently including the dashboard results section and browser screenshots.
+- `report/figures/dashboard_phaselab_overview.png` and `report/figures/dashboard_phaselab_diagnosis.png` — real browser-captured dashboard screenshots used in the final PDF.
 - `report/results/` and `report/phase_results/` — CSV/JSON summaries and key findings.
 - `logs/phase_full_20260608_001753.log` — lab GPU full PhaseLab run log.
+
+The dashboard must remain artifact-driven: screenshots and UI claims should reflect data served from `artifacts/phase/summary.json` and per-experiment artifact files, not hard-coded frontend values.
+
+As of 2026-06-08, `main` has been fast-forwarded past the final PhaseLab report/dashboard commits through `55d1540 Ignore Vite cache directory`; the previous implementation branch head was `18e4222 Add dashboard results to PhaseLab report`.
 
 Do not invent experiment numbers. Any future report edits must be based on `artifacts/full`, `artifacts/phase`, or regenerated summaries.
 
@@ -95,6 +100,16 @@ Expected final verification state:
 - Phase summary: 39 metric rows, 780 robustness rows, 39 phase rows.
 - Frontend tests: 6 passed.
 - Frontend build: passes with an acceptable Recharts/Vite chunk-size warning.
+
+Report/PDF finalization check:
+
+```bash
+latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=report/build report/phaselab_report.tex
+cp report/build/phaselab_report.pdf report/phaselab_report.pdf
+python -m pytest tests/test_package_submission.py tests/test_generate_phaselab_report.py -v
+```
+
+The last report-only verification before final merge passed with 2 tests and LaTeX reported no missing-file warnings or overfull boxes.
 
 Tiny smoke experiments:
 
