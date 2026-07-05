@@ -47,3 +47,14 @@ def test_assign_phase_label_useful_compression():
         cbi_by_corruption={"gaussian": 0.02},
     )
     assert label == "useful-compression"
+
+
+def test_assign_phase_label_unstable_when_cbi_has_mixed_signs():
+    label = assign_phase_label(
+        average_kl=4.0,
+        beta0_kl=10.0,
+        test_accuracy=0.84,
+        best_accuracy=0.90,
+        cbi_by_corruption={"gaussian": 0.03, "contrast": -0.02},
+    )
+    assert label == "unstable"

@@ -5,6 +5,7 @@ export function phaseLabelText(label: string): string {
     'robustness-specialized': '鲁棒特化',
     'over-compressed': '过度压缩',
     unstable: '不稳定',
+    baseline: '基线',
   }
   return labels[label] ?? label
 }

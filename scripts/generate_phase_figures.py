@@ -15,6 +15,7 @@ DATASET_LABELS = {
 }
 
 PHASE_COLORS = {
+    "baseline": "#4e5b55",
     "under-regularized": "#8fb3d9",
     "useful-compression": "#0f8f7d",
     "robustness-specialized": "#c26a2e",
@@ -66,7 +67,7 @@ def plot_clean_accuracy(metric_rows: list[dict[str, str]], output_path: Path) ->
 
 def plot_phase_label_counts(summary: dict[str, Any], output_path: Path) -> None:
     datasets = ["mnist", "fashion_mnist", "cifar10"]
-    labels = ["under-regularized", "useful-compression", "robustness-specialized", "unstable", "over-compressed"]
+    labels = ["baseline", "under-regularized", "useful-compression", "robustness-specialized", "unstable", "over-compressed"]
     fig, axis = plt.subplots(figsize=(9, 4.2))
     bottoms = [0] * len(datasets)
     for label in labels:

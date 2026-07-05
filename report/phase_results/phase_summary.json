@@ -10,8 +10,9 @@
         "salt_pepper": "cifar10_vib_beta_0_01"
       },
       "phase_label_counts": {
-        "useful-compression": 7,
+        "baseline": 1,
         "under-regularized": 4,
+        "useful-compression": 6,
         "unstable": 1,
         "over-compressed": 1
       }
@@ -26,8 +27,9 @@
         "salt_pepper": "fashion_mnist_cnn_baseline"
       },
       "phase_label_counts": {
-        "useful-compression": 3,
+        "baseline": 1,
         "under-regularized": 2,
+        "useful-compression": 2,
         "unstable": 7,
         "over-compressed": 1
       }
@@ -42,8 +44,9 @@
         "salt_pepper": "mnist_vib_beta_0_03"
       },
       "phase_label_counts": {
-        "useful-compression": 7,
+        "baseline": 1,
         "under-regularized": 1,
+        "useful-compression": 6,
         "unstable": 4,
         "over-compressed": 1
       }

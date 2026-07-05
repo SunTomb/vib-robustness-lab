@@ -65,8 +65,10 @@ def test_refresh_phase_indicators_uses_dataset_baselines(tmp_path: Path):
     refresh_phase_indicators(tmp_path)
 
     phase = json.loads((tmp_path / "mnist_vib_beta_0_1" / "phase_indicators.json").read_text(encoding="utf-8"))
+    baseline_phase = json.loads((tmp_path / "mnist_cnn_baseline" / "phase_indicators.json").read_text(encoding="utf-8"))
     assert phase["compression_benefit_index"]["gaussian"] == 0.2
     assert phase["kl_collapse_score"] == 0.1
+    assert baseline_phase["phase_label"] == "baseline"
 
 
 def test_write_phase_result_exports_writes_artifact_summary(tmp_path: Path):

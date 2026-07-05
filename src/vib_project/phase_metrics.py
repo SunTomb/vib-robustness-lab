@@ -65,10 +65,10 @@ def assign_phase_label(
         return "under-regularized"
     if accuracy_drop <= USEFUL_ACCURACY_DROP and best_cbi >= 0.0:
         return "useful-compression"
-    if best_cbi > 0.0:
-        return "robustness-specialized"
     if best_cbi > 0.0 and worst_cbi < 0.0:
         return "unstable"
+    if best_cbi > 0.0:
+        return "robustness-specialized"
     return "unstable"
 
 

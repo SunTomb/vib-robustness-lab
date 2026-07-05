@@ -1,10 +1,10 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
 
 ## Absolute safety instruction
 
-Do not use PowerShell commands or the PowerShell tool in this project. The user is connected through CC Switch and explicitly warned that PowerShell tool use may trigger Claude Code internal stack leakage.
+Do not use PowerShell commands or the PowerShell tool in this project. The user is connected through CC Switch and explicitly warned that PowerShell tool use may trigger Codex internal stack leakage.
 
 Use dedicated file/search/edit/Git tools whenever possible. If a terminal command is unavoidable, use Bash or another non-PowerShell shell and explain why before running it.
 
@@ -40,7 +40,7 @@ Before implementation, read:
 1. `README.md` — current usage, verification commands, and final artifact overview.
 2. `docs/superpowers/specs/2026-06-07-vib-phaselab-design.md` — final approved PhaseLab design.
 3. `docs/superpowers/plans/2026-06-07-vib-phaselab.md` — task-level implementation plan.
-4. `CLAUDE.md` — this handoff and operating guide.
+4. `AGENTS.md` — this handoff and operating guide.
 
 Older robust-generalization specs/plans may exist as historical context, but PhaseLab is the final project framing.
 

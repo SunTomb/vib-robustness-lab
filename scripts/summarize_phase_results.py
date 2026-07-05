@@ -122,6 +122,9 @@ def refresh_phase_indicators(root: Path) -> None:
                 beta0_kl=beta0_kl,
                 best_accuracy=best_accuracy,
             )
+            if record["metadata"]["model"] == "cnn":
+                phase_indicators["phase_label"] = "baseline"
+                phase_indicators["over_compression_flag"] = False
             _write_json(record["directory"] / "phase_indicators.json", phase_indicators)
 
 

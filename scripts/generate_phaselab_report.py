@@ -48,6 +48,7 @@ def generate_phaselab_report(phase_root: Path, result_root: Path, output_path: P
         (
             "PhaseLab 关注的问题是：VIB 的压缩何时是 useful compression，何时变成 destructive over-compression。"
             "实验以 KL(q(z|x)||p(z)) 作为 I(X;Z) 的变分上界 proxy，以 clean accuracy 和 corruption accuracy 作为任务信息与鲁棒性的经验 proxy。"
+            "CNN baseline 单独标记为 baseline，用作参考而不解释为 VIB 压缩阶段。"
         ),
         "",
         "Phase indicators 使用同一数据集内的 CNN baseline 作为 normalized robustness AUC 参考，"

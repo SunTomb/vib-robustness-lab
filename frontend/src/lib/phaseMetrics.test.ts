@@ -5,6 +5,7 @@ describe('phaseLabelText', () => {
   it('maps phase labels to Chinese labels', () => {
     expect(phaseLabelText('useful-compression')).toBe('有效压缩')
     expect(phaseLabelText('over-compressed')).toBe('过度压缩')
+    expect(phaseLabelText('baseline')).toBe('基线')
   })
 })
 

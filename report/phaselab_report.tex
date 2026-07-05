@@ -118,7 +118,7 @@ KL collapse score 使用同一数据集 VIB $\beta=0$ 的 KL 作为参考：
 \text{KL-collapse}=\frac{KL_\beta}{KL_{\beta=0}}.
 \end{equation}
 
-系统根据 clean accuracy drop、CBI 和 KL collapse score 给每个配置赋予诊断标签：压缩不足、有效压缩、鲁棒特化、过度压缩或不稳定。该标签是实验诊断工具，不是理论定理。
+系统根据 clean accuracy drop、CBI 和 KL collapse score 给每个 VIB 配置赋予诊断标签：压缩不足、有效压缩、鲁棒特化、过度压缩或不稳定；CNN baseline 单独标记为 baseline，用作参照而不解释为 VIB 压缩阶段。该标签是实验诊断工具，不是理论定理。
 
 \section{实验设置}
 
@@ -168,9 +168,9 @@ Latent dimension & 32 \\
 
 \subsection{基础 VIB 复现实验}
 
-在 MNIST 上，普通 CNN baseline 的 clean accuracy 为 98.81\%，train-test gap 为 0.76\%。VIB-CNN 在 $\beta=0.1$ 时取得最高 clean accuracy 99.38\%，比 CNN baseline 高 0.57 个百分点；此时 KL proxy 为 4.7760，明显低于 $\beta=0$ 时的 872.7278。当 $\beta=1$ 时，MNIST clean accuracy 降至 64.10\%，KL proxy 降至 0.0433，体现了过度压缩现象。
+在 MNIST 上，普通 CNN baseline 的 clean accuracy 为 98.81\%，train-test gap 为 0.76\%。VIB-CNN 在 $\beta=0.03$ 时取得最高 clean accuracy 99.39\%，比 CNN baseline 高 0.58 个百分点；此时 KL proxy 为 7.0490，明显低于 $\beta=0$ 时的 872.7278。当 $\beta=1$ 时，MNIST clean accuracy 降至 64.10\%，KL proxy 降至 0.0433，体现了过度压缩现象。
 
-在 Fashion-MNIST 上，CNN baseline 的 clean accuracy 为 90.50\%，train-test gap 为 2.82\%。VIB-CNN 在 $\beta=0.01$ 时取得最高 clean accuracy 92.17\%，比 CNN baseline 高 1.67 个百分点；此时 KL proxy 为 11.5234，相比 $\beta=0$ 的 316.1828 大幅下降。当 $\beta=1$ 时，Fashion-MNIST clean accuracy 降至 60.14\%，KL proxy 降至 0.0210。
+在 Fashion-MNIST 上，CNN baseline 的 clean accuracy 为 90.50\%，train-test gap 为 2.82\%。VIB-CNN 在 $\beta=0.03$ 时取得最高 clean accuracy 92.29\%，比 CNN baseline 高 1.79 个百分点；此时 KL proxy 为 7.5336，相比 $\beta=0$ 的 316.1828 大幅下降。当 $\beta=1$ 时，Fashion-MNIST clean accuracy 降至 60.14\%，KL proxy 降至 0.0210。
 
 \subsection{PhaseLab clean accuracy 总览}
 
@@ -212,7 +212,7 @@ CIFAR-10 & cifar10\_vib\_beta\_0\_003 & VIB-CNN & 0.003 & 70.41\% & 25.8218 & 0.
 
 \subsection{MNIST：有效压缩较稳定}
 
-MNIST 的 phase label 分布为：useful-compression 7 个、under-regularized 1 个、unstable 4 个、over-compressed 1 个。MNIST 各 corruption 的最优配置如下：
+MNIST 的 phase label 分布为：baseline 1 个、useful-compression 6 个、under-regularized 1 个、unstable 4 个、over-compressed 1 个。MNIST 各 corruption 的最优配置如下：
 
 \begin{table}[H]
 \centering
@@ -235,7 +235,7 @@ salt-pepper & mnist\_vib\_beta\_0\_03 & 0.03 & 0.9474 & 0.0025 & 99.39\% \\
 
 \subsection{Fashion-MNIST：压缩收益依赖扰动类型}
 
-Fashion-MNIST 的 phase label 分布为：useful-compression 3 个、under-regularized 2 个、unstable 7 个、over-compressed 1 个。最优 robustness AUC 如表所示：
+Fashion-MNIST 的 phase label 分布为：baseline 1 个、useful-compression 2 个、under-regularized 2 个、unstable 7 个、over-compressed 1 个。最优 robustness AUC 如表所示：
 
 \begin{table}[H]
 \centering
@@ -258,7 +258,7 @@ VIB 在 blur 和 contrast 上取得最优，但 Gaussian 与 salt-and-pepper 的
 
 \subsection{CIFAR-10：复杂任务上的混合结论}
 
-CIFAR-10 的 phase label 分布为：useful-compression 7 个、under-regularized 4 个、unstable 1 个、over-compressed 1 个。最优 robustness AUC 如表所示：
+CIFAR-10 的 phase label 分布为：baseline 1 个、useful-compression 6 个、under-regularized 4 个、unstable 1 个、over-compressed 1 个。最优 robustness AUC 如表所示：
 
 \begin{table}[H]
 \centering

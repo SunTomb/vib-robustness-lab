@@ -18,6 +18,6 @@
     "contrast": 0.0
   },
   "kl_collapse_score": 0.0,
-  "phase_label": "useful-compression",
+  "phase_label": "baseline",
   "over_compression_flag": false
 }
